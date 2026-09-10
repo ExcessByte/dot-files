@@ -12,7 +12,7 @@ helix/runtime/
 # --- mozilla/firefox: only keep user.js and chrome/userChrome.css ---
 mozilla/*
 !mozilla/firefox
-
+zsh/.zcompdump
 mozilla/firefox/*
 !mozilla/firefox/default/user.js
 !mozilla/firefox/default/chrome
