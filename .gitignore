@@ -1,0 +1,21 @@
+# --- Fully excluded config dirs/files ---
+btop/
+git/
+go/
+Code/
+gh/
+glib*/
+gtk-3.0/
+pulse/
+mimeapps.list
+helix/runtime/
+# --- mozilla/firefox: only keep user.js and chrome/userChrome.css ---
+mozilla/*
+!mozilla/firefox
+
+mozilla/firefox/*
+!mozilla/firefox/default/user.js
+!mozilla/firefox/default/chrome
+
+mozilla/firefox/default/chrome/*
+!mozilla/firefox/default/chrome/userChrome.css

@@ -1,0 +1,30 @@
+theme = "amberwood"
+
+[editor]
+line-number = "relative"
+mouse = true
+auto-save = true
+auto-format = true
+gutters = ["diagnostics", "line-numbers", "spacer"]
+indent-heuristic = "tree-sitter"
+
+[editor.whitespace.characters]
+space = "·"
+nbsp = "⍽"
+tab = "→"
+newline = "⏎"
+tabpad = "·" 
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
+
+[editor.lsp]
+display-messages = true
+
+[editor.indent-guides]
+render = true
+character = "╎"
+skip-levels = 0
+
