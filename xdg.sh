@@ -1,0 +1,1 @@
+/etc/profile.d/xdg.sh
